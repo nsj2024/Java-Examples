@@ -1,0 +1,9 @@
+package com.iiht.store.entity;
+
+public class Egg {
+
+	
+	private Long batchId;
+	private Long quantity;
+	private double price;
+}

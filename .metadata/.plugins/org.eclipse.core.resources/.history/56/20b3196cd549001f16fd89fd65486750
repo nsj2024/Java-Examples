@@ -1,0 +1,5 @@
+package com.iiht.store.entity;
+
+public class Apple {
+
+}

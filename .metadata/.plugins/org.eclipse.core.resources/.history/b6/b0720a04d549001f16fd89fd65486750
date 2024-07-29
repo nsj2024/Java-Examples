@@ -1,0 +1,12 @@
+package com.iiht.store.entity;
+
+public class Chocolate {
+	
+	
+	private Long batchId;
+	private String name;
+	private Long quantity;
+	private double price;
+	private String expiry;
+
+}

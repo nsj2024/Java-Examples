@@ -1,0 +1,9 @@
+package com.iiht.store.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.iiht.store.entity.Milk;
+
+public interface MilkRepository extends JpaRepository<Milk, Long>{
+
+}

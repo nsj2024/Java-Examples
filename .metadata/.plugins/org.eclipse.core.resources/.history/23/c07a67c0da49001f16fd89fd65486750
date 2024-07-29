@@ -1,0 +1,28 @@
+package com.iiht.store.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.iiht.store.entity.Egg;
+import com.iiht.store.repository.EggRepository;
+
+@Service
+public class StoreService {
+	
+	@Autowired
+	EggRepository eggRepo;
+	
+	
+	public Egg create(Egg e1)
+	{
+		return eggRepo.save(e1);
+	}
+	
+	public List<Egg> getAllEggs()
+	{
+		return eggRepo.findAll();
+	}
+
+}
